@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  .header {
+    display: flex;
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Espacia los elementos entre extremos */
+    background-color: #003366;
+    padding: 1em 2em;
+  }
+  
+  .logo {
+    flex: 0 1 auto; /* El logo ocupa solo el espacio necesario dentro de la navbar*/
+  }
+  
+  .logo img {
+    max-height: 50px; /* Ajusta la altura del logo */
+    width: auto; /* Mantén la proporción del logo */
+    cursor: pointer; /* Aplica cursor para indicar que es clickeable xd*/
+    filter: invert(1) brightness(2); /* Hace el logo blanco para combinar con la navbar  pues simplemente cambia el color xd*/
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    gap: 1em; /* Añade espacio entre elementos */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: none;
+    scale: 1.05;
+    color: orange;
+  }
+ 
+  a:hover{
+    color: orange;
+ }
+ 
+ 
+  .login-btn, .register-btn {
+    background-color: orange;
+    color: #070606;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+  }
+  
+  .login-btn:hover, .register-btn:hover {
+    scale: 1.05;
+    background-color: #f4f4f4;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: auto;
+    cursor: default;
+  }
+  .logo img {
+    max-height: 50px; 
+    width: auto;
+    cursor: pointer;
+    filter: invert(1) brightness(2);
+  }
+  .icon img {
+    max-height: 50px; 
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    cursor: default;
+  }
+  
+  .gallery-item {
+    margin: 0 1em;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #f4f4f4;
+
+  }
+  
+  
+  .info-item {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003366;
+    color: white;
+    padding: 2em;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
