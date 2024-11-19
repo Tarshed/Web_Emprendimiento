@@ -111,7 +111,6 @@ body {
 
   }
   
-  
   .info-item {
     text-align: center;
     max-width: 300px;
@@ -129,4 +128,106 @@ body {
     color: white;
     text-decoration: none;
   }
-  
+
+/* contenedor de formularios */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f4f4f4;
+}
+
+/* Contenedor de pestañas */
+.tabs {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Pestañas */
+.tabs-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.tabs-header button {
+  flex: 1;
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.7em;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: ease-in-out 250ms;
+}
+
+.tabs-header button.active {
+  background-color: orange;
+  color: #003366;
+}
+
+.tabs-header button:hover {
+  background-color: orange;
+  color: #003366;
+}
+
+/* Formulario */
+.form {
+  display: none;
+}
+
+.form.active {
+  display: block;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form .btn-submit {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.7em;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: ease-in-out 250ms;
+}
+
+.form .btn-submit:hover {
+  background-color: orange;
+}
+
+.form p {
+  text-align: center;
+}
+
+.form a {
+  color: #003366;
+  text-decoration: none;
+  transition: ease-in-out 250ms;
+}
+
+.form a:hover {
+  color: orange;
+  text-decoration: underline;
+  transition: ease-in-out 250ms;
+}
